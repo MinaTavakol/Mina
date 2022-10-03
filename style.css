@@ -1,0 +1,90 @@
+body{
+	direction: rtl;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*----general style----*/
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+.clearfix{clear: both;}
+
+
+
+
+
+/*----top style----*/
+#top{
+	background-color: #202069;
+	border-radius:10px;
+	margin-right: 500px;
+}
+#top#top-navigation ul{
+	list-style:none;
+}
+#top#top-navigation ul li {
+	display:inline;
+	margin: 20px;
+}
+#top#top-navigation ul li a{
+	color:white;
+	text-decoration: none;
+	line-height: 40px;
+}
+#top#top-navigation ul li a:hover{
+	color: #cd0e0e;
+}
+#date-time-text{
+	line-height: 40px;
+	color: white;
+}
+header{
+	background-color: #161616;
+	height: 90px;
+}
+header#top-log h1{
+	font-size: 0;
+	background-image: url(4288864.png);
+	width: 185px;
+	height: 51px;
+	margin-top: 17px;
+}
+header#top-ads{
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+	line-height: 70px;
+	text-align: center;
+	margin-top: 10px;
+	text-decoration: none;
+	color: black;
+}
+header#search-box{
+	background-color: white;
+	margin-top: 30px;
+}
+header#search-box button{
+	background-color: transparent;
+	border: 0;
+	float: left;
+	cursor: pointer;
+	outline: none;
+	margin-top: 2px;
+}
+header#search-box button.image{
+	width: 5px;
+	height: 2px;
+}
+header#search-box input[type-text]{
+	border:0;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 6px;
+	outline:none;
+	float:right;
+}
+.box{
+	width: 400px;
+	height: 250px;
+	background-image:url(/home/mina/firstproject/frame-png-1-4.jpg) center no-repeat;
+	background-size: cover;
+}
